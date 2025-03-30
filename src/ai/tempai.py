@@ -32,8 +32,4 @@ def model_predict(celsius: float) -> float:
         raise Exception('It is necessary to train the AI model firts')
     
     return tempai_model.predict(np.array([celsius]))
-
-def model_reset():
-    global tempai_model
-    tempai_model = None
     

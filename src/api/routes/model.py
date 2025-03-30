@@ -23,8 +23,4 @@ async def predict(celsius: float) -> ModelPredictResponse:
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     return ModelPredictResponse(result=response)
-
-@router.get("/reset")
-async def reset():
-    model_reset()
     
