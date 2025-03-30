@@ -3,7 +3,7 @@ from models.model_fit_response import ModelFitResponse
 from models.model_fit_request import ModelFitRequest
 from models.model_predict_response import ModelPredictResponse
 
-from ai.tempai import model_fit, model_predict, model_reset
+from ai.tempai import model_fit, model_predict
 
 router = APIRouter(prefix="/model", tags=["model"])
 
