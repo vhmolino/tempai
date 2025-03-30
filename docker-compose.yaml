@@ -1,0 +1,6 @@
+services:
+  tempai:
+    build: .
+    # image: tempai
+    ports:
+     - "80:80"
