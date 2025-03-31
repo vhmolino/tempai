@@ -1,6 +1,6 @@
 services:
   tempai:
-    image: ghcr.io/mariocarbonelliesabastos/tempai:master
+    # image: ghcr.io/mariocarbonelliesabastos/tempai:master
     # build: .
     # image: tempai
     ports:
