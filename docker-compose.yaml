@@ -2,6 +2,6 @@ services:
   tempai:
     # image: ghcr.io/mariocarbonelliesabastos/tempai:master
     # build: .
-    # image: tempai
+    image: tempai
     ports:
      - "80:80"
